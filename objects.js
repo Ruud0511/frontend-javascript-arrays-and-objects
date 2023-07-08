@@ -6,7 +6,7 @@ const personalInfo = {
       firstName: "Ruud",
       lastName: "Bol",
       age: 42,
-      dateOfBirth: "05/11/1980",
+      dateOfBirth: new Date (1980, 10, 6),
 }
 
 console.log(personalInfo);
